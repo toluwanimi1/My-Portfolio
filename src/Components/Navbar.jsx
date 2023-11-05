@@ -19,8 +19,8 @@ const Navbar = () => {
         <div className='hidden'> <FaBars /></div>
 
         {/* Mobile menu*/}
-        <div className='hidden'>
-        <ul>
+        <div>
+        <ul className='absolute top left-0 w-full h-screen'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Experience</li>
