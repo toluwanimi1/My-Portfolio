@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../Assest/logo.png';
+import {Link} from 'react-scroll'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
@@ -11,11 +12,31 @@ const Navbar = () => {
     </div>    
     {/*menu */}    
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li>
+                <Link to='Home' smooth={true} offset={50} duration={500}>
+                Home
+                </Link>
+                </li>
+                <li>
+                <Link to='About' smooth={true} offset={50} duration={500}>
+                About
+                </Link>
+                </li>
+                <li>
+                <Link to='Experience' smooth={true} offset={50} duration={500}>
+                Experience
+                </Link>
+                </li>
+                <li>
+                <Link to='Projects' smooth={true} offset={50} duration={500}>
+                Projects
+                </Link>
+                </li>
+                <li>
+                <Link to='Contact' smooth={true} offset={50} duration={500}>
+                Contact
+                </Link>
+                </li>
             </ul>
         
         {/*Hameburger*/}
@@ -26,11 +47,31 @@ const Navbar = () => {
         {/* Mobile menu*/}
        
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#1b082c] flex  flex-col justify-center items-center'}>
-                <li className=' py-6 text-4xl'>Home</li>
-                <li className=' py-6 text-4xl'>About</li>
-                <li className=' py-6 text-4xl'>Experience</li>
-                <li className=' py-6 text-4xl'>Projects</li>
-                <li className=' py-6 text-4xl'>Contact</li>
+                <li className=' py-6 text-4xl'>
+                <Link onClick={handleClick} to='Home' smooth={true} offset={50} duration={500}>
+                Home
+                </Link>
+                </li>
+                <li className=' py-6 text-4xl'>
+                <Link onClick={handleClick} to='About' smooth={true} offset={50} duration={500}>
+                About
+                </Link>
+                </li>
+                <li className=' py-6 text-4xl'>
+                <Link onClick={handleClick} to='Experience' smooth={true} offset={50} duration={500}>
+                Experience
+                </Link>
+                </li>
+                <li className=' py-6 text-4xl'>
+                <Link onClick={handleClick} to='Projects' smooth={true} offset={50} duration={500}>
+                Projects
+                </Link>
+                </li>
+                <li className=' py-6 text-4xl'>
+                <Link onClick={handleClick} to='Contact' smooth={true} offset={50} duration={500}>
+                Contact
+                </Link>
+                </li>
             </ul>
 
           
