@@ -36,10 +36,10 @@ const Projects = () => {
               React Portolio
               </span>
               <div className='pt-8 text-center'>
-                <a href="/" target="_blank">
+                <a href="https://toluwanimi1.github.io/My-Portfolio/" target="_blank">
                   <button className='text-center round-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg rounded-md'>Demo</button>
                 </a>
-                <a href="/" target="_blank">
+                <a href="https://github.com/toluwanimi1/My-Portfolio" target="_blank">
                   <button className='text-center round-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg rounded-md'>Code</button>
                 </a>
 
