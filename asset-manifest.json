@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.3662966c.css",
-    "main.js": "/My-Portfolio/static/js/main.30ce336d.js",
+    "main.css": "/My-Portfolio/static/css/main.18672733.css",
+    "main.js": "/My-Portfolio/static/js/main.6bf9ae77.js",
     "static/media/mysql.png": "/My-Portfolio/static/media/mysql.5ab8ceecebe6fe35b05f.png",
     "static/media/ToluwanimiResume2023.pdf": "/My-Portfolio/static/media/ToluwanimiResume2023.ee6b4f5fdb98f3274f66.pdf",
     "static/media/Bootstrap.png": "/My-Portfolio/static/media/Bootstrap.c8bb8224feac23daa7b7.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/My-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/js.png": "/My-Portfolio/static/media/js.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.3662966c.css.map": "/My-Portfolio/static/css/main.3662966c.css.map",
-    "main.30ce336d.js.map": "/My-Portfolio/static/js/main.30ce336d.js.map"
+    "main.18672733.css.map": "/My-Portfolio/static/css/main.18672733.css.map",
+    "main.6bf9ae77.js.map": "/My-Portfolio/static/js/main.6bf9ae77.js.map"
   },
   "entrypoints": [
-    "static/css/main.3662966c.css",
-    "static/js/main.30ce336d.js"
+    "static/css/main.18672733.css",
+    "static/js/main.6bf9ae77.js"
   ]
 }
