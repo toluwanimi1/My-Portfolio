@@ -16,27 +16,27 @@ const Navbar = () => {
     </div>    
     {/*menu */}    
             <ul className='hidden md:flex'>
-                <li>
+                <li className='hover:text-[#bb97ff]'>
                 <Link to='Home' smooth={true} offset={50} duration={500}>
                 Home
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#bb97ff]'>
                 <Link to='About' smooth={true} offset={50} duration={500}>
                 About
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#bb97ff]'>
                 <Link to='Experience' smooth={true} offset={50} duration={500}>
                 Experience
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#bb97ff]'>
                 <Link to='Projects' smooth={true} offset={50} duration={500}>
                 Projects
                 </Link>
                 </li>
-                <li>
+                <li className='hover:text-[#bb97ff]'>
                 <Link to='Contact' smooth={true} offset={50} duration={500}>
                 Contact
                 </Link>
@@ -51,27 +51,27 @@ const Navbar = () => {
         {/* Mobile menu*/}
        
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#1b082c] flex  flex-col justify-center items-center'}>
-                <li className=' py-6 text-4xl'>
+                <li className=' py-6 text-4xl hover:text-[#bb97ff]'>
                 <Link onClick={handleClick} to='Home' smooth={true} offset={50} duration={500}>
                 Home
                 </Link>
                 </li>
-                <li className=' py-6 text-4xl'>
+                <li className=' py-6 text-4xl hover:text-[#bb97ff]'>
                 <Link onClick={handleClick} to='About' smooth={true} offset={50} duration={500}>
                 About
                 </Link>
                 </li>
-                <li className=' py-6 text-4xl'>
+                <li className=' py-6 text-4xl hover:text-[#bb97ff]'>
                 <Link onClick={handleClick} to='Experience' smooth={true} offset={50} duration={500}>
                 Experience
                 </Link>
                 </li>
-                <li className=' py-6 text-4xl'>
+                <li className=' py-6 text-4xl hover:text-[#bb97ff]'>
                 <Link onClick={handleClick} to='Projects' smooth={true} offset={50} duration={500}>
                 Projects
                 </Link>
                 </li>
-                <li className=' py-6 text-4xl'>
+                <li className=' py-6 text-4xl hover:text-[#bb97ff]'>
                 <Link onClick={handleClick} to='Contact' smooth={true} offset={50} duration={500}>
                 Contact
                 </Link>
