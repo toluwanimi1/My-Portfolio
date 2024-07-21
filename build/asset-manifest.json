@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.a62d2ff5.css",
+    "main.js": "/My-Portfolio/static/js/main.6bb547ad.js",
+    "static/media/mysql.png": "/My-Portfolio/static/media/mysql.5ab8ceecebe6fe35b05f.png",
+    "static/media/ToluwanimiResume2023.pdf": "/My-Portfolio/static/media/ToluwanimiResume2023.ee6b4f5fdb98f3274f66.pdf",
+    "static/media/Bootstrap.png": "/My-Portfolio/static/media/Bootstrap.c8bb8224feac23daa7b7.png",
+    "static/media/portfolio.png": "/My-Portfolio/static/media/portfolio.1f6131c90516a56ae7ff.png",
+    "static/media/react.png": "/My-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/My-Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/php.png": "/My-Portfolio/static/media/php.4990580e9b615aeebb1f.png",
+    "static/media/Calculator.png": "/My-Portfolio/static/media/Calculator.b36b8ac6c27f7b112fd9.png",
+    "static/media/java.png": "/My-Portfolio/static/media/java.66d5a4fef00821dfe115.png",
+    "static/media/logo.png": "/My-Portfolio/static/media/logo.16ebdfd11940ee577854.png",
+    "static/media/github.png": "/My-Portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/My-Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/My-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.a62d2ff5.css.map": "/My-Portfolio/static/css/main.a62d2ff5.css.map",
+    "main.6bb547ad.js.map": "/My-Portfolio/static/js/main.6bb547ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a62d2ff5.css",
+    "static/js/main.6bb547ad.js"
+  ]
+}
