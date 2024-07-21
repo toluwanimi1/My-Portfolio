@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../Assest/logo.png';
 import {Link} from 'react-scroll';
-import pdf from '../Assest/ToluwanimiResume2023.pdf';
+import pdf from '../Assest/ToluwanimiResume2024.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
