@@ -1,6 +1,5 @@
-import React, {useState, Component } from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn,} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import React, {useState,} from 'react';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../Assest/logo.png';
 import {Link} from 'react-scroll';
