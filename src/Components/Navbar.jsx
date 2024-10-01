@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../Assest/logo.png';
 import {Link} from 'react-scroll';
-import pdf from '../Assest/ToluwanimiResume2024.pdf';
+import pdf from '../Assest/Toluwanimi Resume 2024.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1b082c] text-[#ffffff]'>
-    <div> <img src={Logo} alt="Logo image" style={{width: '70px'}}/>
+    <div> <Link to='Home' smooth={true} offset={50} duration={500}> <button><img src={Logo} alt="Logo image" style={{width: '70px'}}/> </button></Link>
     </div>    
     {/*menu */}    
             <ul className='hidden md:flex'>

@@ -16,10 +16,14 @@ const Experience = () => {
     <div name='Experience' className=' bg-[#1b082c] text-white'>
       {/* Container */}
     <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-    <div>
-        <p className='text-4xl font-bold inline border-b-4 border-purple-800 text-white '>Experience</p>
-        <p className='py-4 text-2xl'> Technologies I am acquainted with</p>
-    </div>
+    <div className='text-center'>
+    <p className='text-3xl sm:text-4xl font-bold inline-block border-b-4 border-purple-800 text-white'>
+      Experience
+    </p>
+    <p className='py-4 text-lg sm:text-2xl text-white'>
+      Technologies I am acquainted with
+    </p>
+  </div>
     <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
     <div className='rounded-md shadow-md shadow-[#2c0b48] hover:scale-110 duration-500'>
       <img className='w-20 mx-auto' src={Github} alt="Github icon"/>
