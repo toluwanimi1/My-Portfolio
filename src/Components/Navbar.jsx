@@ -42,13 +42,13 @@ const Navbar = () => {
             </ul>
         
         {/*Hameburger*/}
-        <div onClick={handleClick} className='md:hidden z-10'> 
+        <div onClick={handleClick} className='md:hidden z-20'> 
         {!nav ?<FaBars/> : <FaTimes/>}
         </div>
 
         {/* Mobile menu*/}
        
-        <ul className={`transition-all duration-500 ease-in-out ${!nav ? 'h-0' : 'h-[25vh]'} absolute top-0 left-0 w-full bg-[#1b082c] flex flex-col justify-center items-center overflow-hidden z-10`}>
+        <ul className={`transition-all duration-500 ease-in-out ${!nav ? 'h-0' : 'h-[30vh]'} absolute top-0 left-0 w-full bg-[#1b082c] flex flex-col justify-center items-center overflow-hidden `}>
   <li className='py-2 text-xl hover:text-[#bb97ff]'>
     <Link onClick={handleClick} to='Home' smooth={true} offset={50} duration={500}>
       Home

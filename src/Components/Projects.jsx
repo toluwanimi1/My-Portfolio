@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
         </div>
           {/* Contrainer */}
-          <div className='grid w-full grid-cols-1 place-items-start gap-12 sm:grid-cols-2 sm:gap-6 sm:px-4 md:grid-cols-1 md:gap-24'>
+          <div className='grid w-full grid-cols-1 place-items-start gap-12 sm:grid-cols-2 md:grid-cols-1 md:gap-24'>
   {/* Grid item */}
   <div className='mx-auto grid w-full max-w-6xl grid-cols-1 p-4 md:grid-cols-2 md:place-items-center md:gap-6 lg:gap-12'>
     <div className='relative aspect-[3/2] w-full max-w-lg'>

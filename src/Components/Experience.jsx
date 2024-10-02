@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <div name="Experience" className=" bg-[#1b082c] text-white pb-20">
       {/* Container */}
-      <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen">
+      <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="text-center">
           <p className="text-3xl sm:text-4xl font-bold inline-block border-b-4 border-purple-800 text-white">
             EXPERIENCE
