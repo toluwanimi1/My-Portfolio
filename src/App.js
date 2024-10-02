@@ -4,22 +4,20 @@ import Experience from "./Components/Experience";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
-
-
-
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
+      <Navbar />
+      <Home />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
-  )
+  );
 }
 
-
-export default  App;
+export default App;
