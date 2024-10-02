@@ -37,14 +37,14 @@ const Contact2 = () => {
    <form onSubmit={handleSubmit} name='Emailform' className='flex flex-col max-w-[600px] w-full'>
    <div className='pb-8'>
     <div className='text-center'>
-            <p className='text-4xl font-bold inline border-b-4 border-purple-800 text-white'>Contact</p>
+            <p className='text-4xl font-bold inline border-b-4 border-purple-800 text-white'>CONTACT</p>
             <p className='text-white py-4 text-2xl'>Submit the form below to get in contact</p>
         </div>
         </div>
     <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' value={name} onChange={(e) => setName(e.target.value)}/>
     <input className='my-4 p-2 bg-[#ccd6f6]' type="text" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
     <textarea  className='bg-[#ccd6f6]' name="message" rows="11" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-    <button className='text-white border-2 hover:bg-[#bb97ff] hover:border-[#bb97ff] px-4 py-3 my-8 mx-auto flex items-center' type='submit'> Let's Collaborate</button>
+    <button className='bg-[#633d85] hover:bg-[#654880] text-white rounded px-4 py-3 my-8 mx-auto flex items-center' type='submit'> Let's Collaborate</button>
     </form>
 </div>
   )
