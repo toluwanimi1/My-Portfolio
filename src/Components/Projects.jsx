@@ -4,7 +4,7 @@ import Project1 from '../Assest/project1.JPG';
 import Project2 from '../Assest/project2.JPG';
 const Projects = () => {
   return (
-    <div name='Projects' className='w-full md:h-screen bg-[#1b082c] text-white'>
+    <div name='Projects' className='w-full md:h-screen bg-[#1b082c] text-white pb-80'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <div className='text-center'>

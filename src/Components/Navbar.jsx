@@ -20,22 +20,22 @@ const Navbar = () => {
                 </Link>
                 </li>
                 <li className='hover:text-[#bb97ff]'>
-                <Link to='About' smooth={true} offset={50} duration={500}>
+                <Link to='About' smooth={true} offset={-100} duration={500}>
                 About
                 </Link>
                 </li>
                 <li className='hover:text-[#bb97ff]'>
-                <Link to='Experience' smooth={true} offset={50} duration={500}>
+                <Link to='Experience' smooth={true} offset={-130} duration={500}>
                 Experience
                 </Link>
                 </li>
                 <li className='hover:text-[#bb97ff]'>
-                <Link to='Projects' smooth={true} offset={50} duration={500}>
+                <Link to='Projects' smooth={true} offset={-400} duration={500}>
                 Projects
                 </Link>
                 </li>
                 <li className='hover:text-[#bb97ff]'>
-                <Link to='Contact' smooth={true} offset={50} duration={500}>
+                <Link to='Contact' smooth={true} offset={-80} duration={500}>
                 Contact
                 </Link>
                 </li>
@@ -55,22 +55,22 @@ const Navbar = () => {
     </Link>
   </li>
   <li className='py-2 text-xl hover:text-[#bb97ff]'>
-    <Link onClick={handleClick} to='About' smooth={true} offset={50} duration={500}>
+    <Link onClick={handleClick} to='About' smooth={true} offset={-100} duration={500}>
       About
     </Link>
   </li>
   <li className='py-2 text-xl hover:text-[#bb97ff]'>
-    <Link onClick={handleClick} to='Experience' smooth={true} offset={50} duration={500}>
+    <Link onClick={handleClick} to='Experience' smooth={true} offset={-130} duration={500}>
       Experience
     </Link>
   </li>
   <li className='py-2 text-xl hover:text-[#bb97ff]'>
-    <Link onClick={handleClick} to='Projects' smooth={true} offset={50} duration={500}>
+    <Link onClick={handleClick} to='Projects' smooth={true} offset={-200} duration={500}>
       Projects
     </Link>
   </li>
   <li className='py-2 text-xl hover:text-[#bb97ff]'>
-    <Link onClick={handleClick} to='Contact' smooth={true} offset={50} duration={500}>
+    <Link onClick={handleClick} to='Contact' smooth={true} offset={-100} duration={500}>
       Contact
     </Link>
   </li>

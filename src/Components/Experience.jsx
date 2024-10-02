@@ -13,7 +13,7 @@ import CSS from "../Assest/css.png";
 import JS from "../Assest/js.png";
 const Experience = () => {
   return (
-    <div name="Experience" className=" bg-[#1b082c] text-white pb-20">
+    <div name="Experience" className=" bg-[#1b082c] text-white pb-80">
       {/* Container */}
       <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="text-center">
