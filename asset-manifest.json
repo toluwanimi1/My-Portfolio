@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.ff05fe58.css",
-    "main.js": "/My-Portfolio/static/js/main.0954011c.js",
+    "main.css": "/My-Portfolio/static/css/main.c1fa0b81.css",
+    "main.js": "/My-Portfolio/static/js/main.7ffce218.js",
     "static/media/project2.JPG": "/My-Portfolio/static/media/project2.1864d6913dd424c5277b.JPG",
     "static/media/mysql.png": "/My-Portfolio/static/media/mysql.5ab8ceecebe6fe35b05f.png",
     "static/media/profile.jpg": "/My-Portfolio/static/media/profile.e0617a6bc0e22b703c48.jpg",
     "static/media/project1.JPG": "/My-Portfolio/static/media/project1.6f7b8188ba8671ea72ba.JPG",
+    "static/media/Toluwanimi Resume 2024.pdf": "/My-Portfolio/static/media/Toluwanimi Resume 2024.007684baaa99a4f81748.pdf",
     "static/media/Bootstrap.png": "/My-Portfolio/static/media/Bootstrap.c8bb8224feac23daa7b7.png",
-    "static/media/Toluwanimi Resume 2024.pdf": "/My-Portfolio/static/media/Toluwanimi Resume 2024.41d2280161a8e2c1dff1.pdf",
     "static/media/react.png": "/My-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/My-Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/php.png": "/My-Portfolio/static/media/php.4990580e9b615aeebb1f.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/My-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/js.png": "/My-Portfolio/static/media/js.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.ff05fe58.css.map": "/My-Portfolio/static/css/main.ff05fe58.css.map",
-    "main.0954011c.js.map": "/My-Portfolio/static/js/main.0954011c.js.map"
+    "main.c1fa0b81.css.map": "/My-Portfolio/static/css/main.c1fa0b81.css.map",
+    "main.7ffce218.js.map": "/My-Portfolio/static/js/main.7ffce218.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff05fe58.css",
-    "static/js/main.0954011c.js"
+    "static/css/main.c1fa0b81.css",
+    "static/js/main.7ffce218.js"
   ]
 }
